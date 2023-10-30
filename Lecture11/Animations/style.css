@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid black;
+    background-color: rgba(38, 90, 136, 0.684);
+    height: 215px;
+    width: 100%;
+    display: flex;
+
+}
+
+.box{
+    width: 212px;
+    height: 212px;
+    border: 2px solid black;
+    background-color: aqua;
+
+    animation-name: vaibhya;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    /* animation-fill-mode: forwards; */
+
+}
+@keyframes vaibhya{
+    from{
+        width: 0%;
+        background-color: #fff; 
+    }
+    to{
+        width: 100%;
+        background-color: #fff;
+    } 
+}
+
