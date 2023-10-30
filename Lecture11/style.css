@@ -1,0 +1,16 @@
+:root{
+    --white-color:#fff;
+}
+
+
+.container{
+    border: 1px solid rgb(39, 117, 226);
+    background-color: black;
+    width: 700px;
+    height: 700px;
+    color: var(--white-color);
+}
+
+.box{
+    border: 1px solid gold;
+}
