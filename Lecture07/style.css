@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 380px;
+    width: 300px;
+    background-color: #a87373;
+    overflow: hidden;
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 1s;
+}
+
+.box img:hover{
+    scale: 1.2;
+}
