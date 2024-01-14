@@ -20,22 +20,22 @@
 
 // console.log(ans1, ans2, ans3, ans4);
 
-//object in js
+//object in js 
 
-let rectangle = {
-    length: 1,
-    breadth: 2,
+// let rectangle = {
+//     length: 1,
+//     breadth: 2,
 
-    draw: function(){
-        console.log('drawing rectangle');
-    }
-}; 
+//     draw: function(){
+//         console.log('drawing rectangle');
+//     }
+// }; 
 
 //factory function
-function createRectangle() {
+function createRectangle(len, bre) {
     let rectangle = {
-        length: 5,
-        breadth: 2,
+        length: len,
+        breadth: bre,
     
         draw: function(){
             console.log('drawing rectangle');
@@ -44,4 +44,20 @@ function createRectangle() {
     return rectangle;
 }
 
-let rectangleObj1 = createRectangle();
+let rectangleObj1 = createRectangle(5, 3);
+
+let rectangleObj2 = createRectangle(9, 4);
+
+let rectangleObj3 = createRectangle(7, 2);
+
+// constructor function
+function Rectangle() {
+    this.length = 1;
+    this.breadth = 2;
+    this.draw = function() {
+        console.log('Drawing')
+    }
+}
+
+//object creation using constructor function
+let rectangleObject = new Rectangle();
