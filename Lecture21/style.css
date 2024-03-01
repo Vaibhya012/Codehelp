@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#head{
+    font-weight: 800;
+    font: bold;
+    font-size: large;
+}
+
+.div{
+    width: 10%;
+    height: 7%;
+    display: flex;
+    background-color: aliceblue;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 50%;
+    height: 100%;
+
+}
+
+#num{
+    font: bolder;
+}
